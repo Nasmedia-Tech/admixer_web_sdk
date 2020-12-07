@@ -6,7 +6,7 @@
 
 -----------------------------------
 ### A. 스크립트 가이드
-```js
+```html
 <script type="text/javascript" src="https://scr.nsmartad.com/admixer/admixer_2.0.js"></script>
 <script type="text/javascript">
 	new admixer_ad({
@@ -76,7 +76,7 @@
 * 웹뷰에서 javascript가 동작 할수 있도록 설정 합니다.
 * 웹뷰에서 로컬스토리지 기능을 사용 할수 있도록 설정 하셔야 합니다.
 * 웹뷰 영역에서 새창을 띄우는 경우(_blank 처리) 광고영역 내에서 랜딩되는 것 방지 합니다.
-* 클릭 랜딩시 마켓(market://)을 비롯해 앱으로 연결되는 앱 링크가 동작하지 않을 수 있기 때문에 별도 처리가 필요 합니다.
+* 클릭 랜딩시 마켓(market://)을 비롯해 앱으로 연결되는 앱 링크가 동작하지 않을 수 있기 때문에 별도 처리가 필요합니다.
 
 ```java
 [웹뷰셋팅].setJavaScriptEnabled(true);
